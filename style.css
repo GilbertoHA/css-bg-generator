@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: monospace;
+  color: rgb(33, 80, 102);
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.title {
+  letter-spacing: 15px;
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+.inputs {
+  padding: 25px 0;
+}
+
+.dir {
+  margin: 20px auto;
+  text-align: center;
+}
+
+.dir > label {
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+#direction {
+  display: block;
+  padding: 10px 25px;
+  margin: 10px 0;
+  background-color: #fbfbfb;
+  border: 1px solid #333;
+  border-radius: 3px;
+  width: 150px;
+}
+
+h3 {
+  font-size: 1.5rem;
+  padding: 0 0 15px;
+}
+
+.result {
+  font-size: 1.3rem;
+  letter-spacing: 3px;
+}
